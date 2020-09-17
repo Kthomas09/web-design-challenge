@@ -6,17 +6,17 @@
     <link rel=“stylesheet” type=“text/css” href=“style.css”>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
 
-    <title>Data Visualization</title>
+
+    <title>vs. Cloudiness</title>
 
 </head>
 
-<!--  Visualization Page 3 -->
+<!-- Visualization Page 2 -->
 
 <body>
-      <!-- NavBar Components -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- NavBar Components -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand text-white" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,17 +24,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div> 
+        <div>
             <ul class="navbar-nav ml-auto"></ul>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"> Graphs</a>
-                <div class="dropdown-menu-left" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="temp.html"> vs. Max Temp</a>
-                    <a class="dropdown-item" href="humidity.html"> vs. Humidity</a>
-                    <a class="dropdown-item" href="cloudiness.html"> vs. Cloudiness</a>
-                    <a class="dropdown-item" href="wind.html"> vs. Wind</a>
-                </div>
+                    <div class="dropdown-menu-left" aria-labelledby="navbarDropdown">
+                        <a class= "dropdown-item" href = "landing.html"> Home</a>
+                        <a class="dropdown-item" href="temp.html"> vs. Max Temp</a>
+                        <a class="dropdown-item" href="humidity.html"> vs. Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html"> vs. Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html"> vs. Wind</a>
+                    </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="comparision.html"> Comparision</a>
@@ -45,20 +46,53 @@
             </ul>
         </div>
     </nav>
-    <h3>Latitude</h3>
-    <hr>
-    <h1>Summary: Latitude vs. Cloudiness</h1>
-    <hr>
-    <img src="/web_visualization/Resources/assets/images/Fig3.png" />
-    <p>
-        Nunc et faucibus metus. Etiam laoreet quam sed eros vulputate vulputate. Maecenas nec ultricies diam, fermentum
-        feugiat dui. Etiam feugiat porttitor lectus, sit amet pharetra ex rutrum vel. Ut quis leo turpis. Nunc maximus
-        mauris in efficitur auctor. Aliquam at nulla tellus. Proin eget maximus erat. Nullam vestibulum at ipsum ac
-        suscipit. Aliquam luctus imperdiet lacus sed maximus. Mauris non arcu semper, luctus enim vel, posuere turpis.
-        Nulla a ligula vel metus vulputate dictum. Nunc tincidunt lectus in nulla ornare, eget posuere nibh pharetra.
-        Aenean aliquet sit amet ligula molestie fringilla. Sed malesuada enim quis turpis pretium efficitur.
-    </p>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Latitude vs. Cloudiness</h1>
+                <hr>
+                <img src="Resources/assets/images/Fig3.png" width="100%" alt="Cloudiness">
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac luctus mi. Fusce ultrices vitae nisi
+                    vitae
+                    eleifend. Sed non laoreet enim. Fusce orci nunc, tincidunt nec molestie quis, imperdiet eget ante.
+                    Quisque
+                    malesuada vitae eros a facilisis. Nullam elementum rutrum imperdiet. Donec tempor, enim nec
+                    imperdiet tincidunt,
+                    sem justo pellentesque dolor, id sagittis tortor nibh eget ex. Nunc auctor turpis enim. Quisque ex
+                    ex, eleifend
+                    varius ultricies eu, consequat id elit.
+                </p>
+            </div>
+        </div>
+        <!-- visualization box -->
+        <div class="col-md-4">
+            <div class="col-md-12">
+                <h2> Visualizations</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-3 col-md-6">
+                        <a href="temp.html"><img class="image" src="Resources/assets/images/Fig1.png" width=100%
+                                alt="Temperature"></a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                        <a href="humidity.html"><img class="image" src="Resources/assets/images/Fig2.png" width=100%
+                                alt="Humidity"></a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                        <a href="cloudiness.html"><img class="image" src="Resources/assets/images/Fig3.png" width=100%
+                                alt="Cloudiness"></a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                        <a href="wind.html"><img class="image" src="Resources/assets/images/Fig1.png" width=100%
+                                alt="Wind"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer font small footer-dark">
+            <div class="footer-copyright text-center py-3"> (C) Copyright Coding Bootcamp 2020
+            </div>
+        </footer>
 </body>
-    <!-- Descriptive title and heading tag -->
-    <!-- The plot/visualization itself for the selected comparison -->
-    <!-- A paragraph describing the plot and its significance -->
