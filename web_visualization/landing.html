@@ -44,29 +44,46 @@
         </div>
     </nav>
     <!-- landing page -->
-    <h3>Latitude</h3>
-    <!-- Sidebar containing preview images of each plot. 
-Click image should take user to visualization -->
-    <hr>
-    <h1>Summary: Latitude vs. X</h1>
-    <hr>
-    <img src="/web_visualization/Resources/assets/images/Fig1.png" />
-    <!-- Explanation of the project -->
-    <p>
-        Donec condimentum luctus dui a gravida. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per
-        inceptos himenaeos. Fusce finibus venenatis enim, vel malesuada metus malesuada at. Etiam vitae risus
-        faucibus,
-        dapibus justo ac, venenatis metus. Maecenas non nulla mi. Fusce et feugiat nunc. Aenean mattis, arcu nec
-        elementum varius, nisl leo fringilla dolor, ut facilisis mi nisl ultricies ligula. Aliquam erat
-        volutpat.
-    </p>
-    <h3>Visualizations</h3>
-    <hr>
-    <!-- Links to each visualization page. -->
-    <a href=> <img src="/web_visualization/Resources/assets/images/Fig1.png" /></a>
-    <a href=> <img src="/web_visualization/Resources/assets/images/Fig2.png" /></a>
-    <br>
-    <a href=> <img src="/web_visualization/Resources/assets/images/Fig3.png" /></a>
-    <a href=> <img src="/web_visualization/Resources/assets/images/Fig4.png" /></a>
-</body>
+    <div class = "container content">
+        <h3>Latitude</h3>
+        <div class = "col-md -8">
+            <div class = "col-md-12">
+                <h1>Summary: Latitude vs. X</h1>
+                <hr>
+                <div class = "thumbnail">
+                    <img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png " width="50%" alt="temperature">
+                </div>
+                    <p>
+                    Donec condimentum luctus dui a gravida. Class aptent taciti sociosqu ad litora torquent per conubia
+                        nostra, per
+                        inceptos himenaeos. Fusce finibus venenatis enim, vel malesuada metus malesuada at. 
+                    </p>
+                    <p>
+                        Etiam vitae risus faucibus,dapibus justo ac, venenatis metus. Maecenas non nulla mi. Fusce et feugiat nunc. Aenean mattis, arcu nec
+                        elementum varius, nisl leo fringilla dolor, ut facilisis mi nisl ultricies ligula. Aliquam erat
+                        volutpat.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <div class ="col-md-4">
+        <div class ="col-md-12">
+            <h3>Visualizations</h3>
+            <hr>
+            <div class = "row">
+                <div class = "col - md- 6">
+                    <a href = "temp.html"><img src = "/Resources/assets/images/Fig1.png" width="100%" alt = "Temperature"</a>
+                </div>
+                <div class = "col - md- 6">
+                    <a href = "humidity.html"><img src = "/Resources/assets/images/Fig2.png" width="100%" alt = "Humidity"</a>
+                </div>
+                <div class = "col - md- 6">
+                    <a href = "cloudiness.html"><img src = "/Resources/assets/images/Fig3.png" width="100%" alt = "Cloudiness"</a>
+                </div>
+                <div class = "col - md- 6">
+                    <a href = "wind.html"><img src = "/Resources/assets/images/Fig4.png" width="100%" alt = "Wind"</a>
+                </div>
+            </div>
+        </div>
+    </div>
