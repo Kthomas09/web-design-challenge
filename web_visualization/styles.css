@@ -42,11 +42,11 @@ body{
     background-color: rbg (223,222,222);
 }
 
-.col-md-12{
+/* .col-md-12{
     background-color:white;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
+    /* padding-top: 10px;
+    padding-bottom: 40px; */
+} */
 
 .pic{
     border: 3px solid rbg(81, 175, 160);
