@@ -19,6 +19,7 @@ a.navbar-brand {
     color: white;
     border-top: 5px solid rbg (81, 175,160)
 }
+ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
 
 h3{ 
     color: rbg(81, 175, 160);
