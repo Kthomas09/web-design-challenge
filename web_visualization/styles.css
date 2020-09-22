@@ -1,8 +1,8 @@
 
-a.navbar-brand {
+.navbar-brand {
     margin-left: 10 px;
     padding:10 px; 
-    background-color: rbg(81,175,160);
+    background-color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25 px;
 }
@@ -42,11 +42,11 @@ body{
     background-color: rbg (223,222,222);
 }
 
-/* .col-md-12{
+.col-md-12{
     background-color:white;
-    /* padding-top: 10px;
-    padding-bottom: 40px; */
-} */
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 
 .pic{
     border: 3px solid rbg(81, 175, 160);
@@ -95,7 +95,7 @@ tr>td:nth-child(10) {
 
 @media(max-width:767px){
     .navbar.bg-light{
-        background-color: rgb(81,175,160)!important;
+        background-color: rgb(45, 55, 192)!important;
     }
 
     .navbar-collapse{
