@@ -1,38 +1,38 @@
 
 body{
-    background-color: #EDEDED; 
+    background-color: purple; 
 }
 /* Navbar */
 .navbar{
     max-height: 57px; 
 }
 .navigation .navbar-brand{
-    color: white; 
+    color: yellow; 
     margin-left: 30px; 
     padding: inherit; 
     font-weight: bold; 
-    background-color: #0BADA6;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navbar{
     background-color: white; 
     font-size: 15px; 
 }
 .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:#E7E7E7!important; 
+    background-color:white!important; 
 }
 .dropdown-item{
-    color: #6D8092 !important; 
+    color: black !important; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:#E7E7E7 !important; 
+    background-color:white !important; 
 }
 a{
     color: #6D8092;
     font-size: 15px; 
 }
 .nav-link:hover{
-    background-color:#E7E7E7 !important;
+    background-color:white !important;
    }
 
 .navbar-brand:hover{
@@ -44,7 +44,7 @@ img{
     height:100% !important;
 }
 .active, .panel:hover{
-    border-color:#0BADA6;
+    border-color:darkblue;
     border-style: solid; 
     
 }
@@ -55,15 +55,22 @@ img{
 
 /* Title Class  */
 .title{
-    color: #0BADA6;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
+
+.h1{
+    color: black
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
 }
 /* Paragraph Element */
 p{
- color: #6D8092;
- font-family: Arial, Helvetica, sans-serif;
+ color: black;
+ font-family: 'Times New Roman', Times, serif;
  font-size: 17px; 
 }
 /* Box Class */
@@ -80,15 +87,16 @@ p{
     font-size: 15px; 
     border-top-color: white !important; 
 }
+
 /* Footer */
 footer{
-background-color: #666666; 
+background-color:black; 
 border-top-style: solid; 
 border-top-width: 5px; 
-border-top-color: #0BADA6;
+border-top-color:purple;
 color: white; 
 min-height: 55px; 
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Times New Roman', Times, serif;
 font-size: 15px; 
 text-align: center; 
 position: fixed;
@@ -100,7 +108,7 @@ padding-top: 15px;
 /* Media Queries */
 @media(max-width: 992px){
 .navbar-expand-lg{
-background-color: #0BADA6 !important;
+background-color: purple !important;
 }
 .navbar{
     max-height: none; 
@@ -118,7 +126,6 @@ button{
     margin-right: 30px; 
 }
 button:focus {
-
     outline: 1px dotted;
     outline: 5px auto -webkit-focusring-color;
     
